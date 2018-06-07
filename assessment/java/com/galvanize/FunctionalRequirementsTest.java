@@ -58,7 +58,7 @@ public class FunctionalRequirementsTest {
         );
 
         result = (String) processor.invoke("process", "80022");
-        expected = "Thank you!  Your package will arrive soon.";
+        expected = "Thank you! Your package will arrive soon.";
         assertEquals(
                 expected,
                 result,
