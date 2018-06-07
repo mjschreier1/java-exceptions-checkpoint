@@ -9,6 +9,11 @@ public class ZipCodeProcessor {
         this.verifier = verifier;
     }
 
+    public String process(String s) {
+        return null;
+    }
+
     // write your code below here...
 
 }
+
